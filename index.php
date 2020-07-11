@@ -1,5 +1,13 @@
 <?php
 
+/*
+The following was added to traccar.xml file
+  <!-- event forwarding -->
+  "<entry key='event.forward.enable'>true</entry>"
+  "<entry key='event.forward.url'>http://webservice_to_do_your_business/</entry>"
+*/
+
+
 ini_set('display_errors', getenv('DISPLAY_ERRORS'));
 error_reporting(E_ALL);
 
